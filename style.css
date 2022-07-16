@@ -1,0 +1,27 @@
+body {
+	text-align: center;
+	font-family: Roboto;
+	font-size: 100px;
+	background: #222222;
+	color: #ffffff;
+}
+a:link {
+  color: #d88fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #d88fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #d88fff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #d88fff;
+  background-color: transparent;
+  text-decoration: underline;
+}
