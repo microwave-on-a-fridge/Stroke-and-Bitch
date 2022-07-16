@@ -9,6 +9,10 @@
     opacity: 1;
   }
 }
+
+.fadeIn {
+  animation-name: fadeIn;
+}
 @keyframes backInDown {
   0% {
     transform: translateY(-1200px) scale(0.7);
@@ -28,4 +32,26 @@
 
 .backInDown {
   animation-name: backInDown;
+}
+
+
+.fadeInBottomRight {
+  animation-name: fadeInBottomRight;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+	visibility: visible;
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
 }
